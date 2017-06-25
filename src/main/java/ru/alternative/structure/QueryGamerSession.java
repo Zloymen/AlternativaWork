@@ -1,6 +1,7 @@
 package ru.alternative.structure;
 
 /**
+ * запрос на игровую сессию
  * Created by Zloy on 21.06.2017.
  */
 public class QueryGamerSession {
@@ -31,6 +32,6 @@ public class QueryGamerSession {
 
     @Override
     public String toString() {
-        return user;
+        return "{User = " + user + ",rank = " + rank + ",createTime =" + createTime +'}';
     }
 }
